@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+	<link href="discoveriesstyle.css" media="all" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-sm navbar-dark">
+				<div class="container-fluid" id="mynavi">
+					<a href="#" class="navbar-brand">
+						<img src="images/logo.png" alt="vr" width="70px">
+					</a>
+					<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#info">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center" id="info">
+						<ul class="navbar-nav me-auto mx-auto">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link px-4">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a href="about.html" class="nav-link px-4">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a href="discoveries.html" class="nav-link px-4">DISCOVERIES</a>
+							</li>
+							<li class="nav-item">
+								<a href="gallery.html" class="nav-link px-4">GALLERY</a>
+							</li>
+							<li class="nav-item">
+								<a href="news.html" class="nav-link px-4">NEWS</a>
+							</li>
+						</ul>
+					</div>
+						<div class="search-wrapper">
+						 <form class="position-relative mySearch">
+							<input class="form-control me-2" type="text" placeholder="Search...">
+							<button type="button" class="myBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+						</form>
+						</div>
+				</div>
+			</nav>
+		</header>
+		
+	<section id="discovery">
+		<div class="demm">
+			<div class="discover position-relative">
+				<img src="images/discohead-img.jpg" class="img-fluid w-100" alt="Responsive-image">
+				  <div class="container position-absolute top-50 start-50 translate-middle">
+					<div id="demo" class="carousel-slide" data-bs-ride="carousel">
+
+						  <!-- Indicators/dots -->
+						  <div class="carousel-indicators">
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+							<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+						  </div>
+						  
+						  <!-- The slideshow/carousel -->
+						 
+						  <div class="carousel-inner">
+							<div class="carousel-item active text-center">
+							  <h1 class="pb-3">Celebrating 30 Years of Discovery</h1>
+							  <p>
+								View iconic discoveries from the telescope, and discover events<br>
+								and resources for celebrating Hubble’s 30th anniversary<br>
+								see the Discoveries of hubble.
+								</p> 
+							</div>
+							<div class="carousel-item text-center">
+							  <h1 class="pb-3">EXPLORE Hubble's Deep Fields</h1>
+							  <p>
+								Taken over the course of 10 days in 1995, the Hubble Deep Field<br>
+								captured roughly 3,000 distant galaxies varying in<br>
+								their stages of evolution.</p>
+							</div>
+							<div class="carousel-item text-center">
+							  <h1 class="pb-3">Planets Near and Far</h1>
+							  <p>
+								Hubble has been used to provve everything from the weather on<br>
+								planets in our solar system to the birth of planets<br>
+								around other stars.</p>
+							</div>
+						  </div>
+						  
+						  <!-- Left and right controls/icons -->
+						  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						  </button>
+						  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						  </button>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+	
+	<section id="hole" class="mt-5">
+		<div class="container">
+			<div class="row mx-auto">
+				<div class="col-lg-7 mycon pt-5">
+					<h2>Hubble's <span style="color:#9a0a33;">biggest </span>discovery<div class="d-inline-block"><div class="bor rounded d-inline-block position-relative" style="top:-9px;left:18px;"></div></div></h2>
+					<p class="py-3">
+					Thanks to Hubble's observations, astronomers have traced
+					the evolution and formation of galaxies, discovered that most
+					galaxies contain supermassive black holes, and mapped the
+					presence of the mysterious dark matter that makes up most
+					of the universe's mass and structure.
+					</p>
+					<button type="button" class="d-block py-2 px-4 mybtn btn btn-danger text-white">
+						Know More
+					</button>
+				</div>
+				<div class="col-lg-5">
+					<div class="d-flex justify-content-center">
+						<img src="images/black-hole.jpg" class="img-fluid myimg" alt="Responsive-image">
+				   </div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section id="inform">
+		<div class="container">
+		<div class="text-head mt-5">
+			<h2 align="center"><div class="d-inline-block"><div class="bor informlft rounded d-inline-block position-relative" style="top:-9px;left:-9px;"></div></div>Hubble's <span style="color:#9a0a33;">Galaxies</span> Discoveries<div class="d-inline-block"><div class="bor  informrght rounded d-inline-block position-relative" style="top:-9px;left:9px;"></div></div></h2
+		</div>
+		<div class="container-fluid mt-4">
+			<div class="row mx-auto d-flex justify-content-between">
+				<div class="col-sm-6 col-lg-4 mb-3">
+					<div class="card mb-3">
+						<img src="images/dis1.jpg" class="img-fluid" alt="Responsive-image">
+						<div class="px-2 py-2">
+							<h4 style="color:#670622;">Spiral Galaxies</h4>
+							<p class="card-text pt-1">Spiral galaxies have winding spiral arms that are most spiral...</p>
+							<a href="#">Read More..</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4 mb-3">
+					<div class="card mb-3">
+						<img src="images/dis2.jpg" class="img-fluid" alt="Responsive-image">
+						<div class="px-2 py-2">
+							<h4 style="color:#670622;">Elliptical Galaxies</h4>
+							<p class="card-text pt-1">Elliptical galaxies are the biggest & most common galaxies...</p>
+							<a href="#">Read More..</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4 mb-3">
+					<div class="card mb-3">
+						<img src="images/dis3.jpg" class="img-fluid" alt="Responsive-image">
+						<div class="px-2 py-2">
+							<h4 style="color:#670622;">Irregular Galaxies</h4>
+							<p class="card-text pt-1">Irregular galaxies don’t contain dust and lack a define...</p>
+							<a href="#">Read More..</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	
+	<section id="cluster">
+		<div class="container mt-5">
+			<div class="text-head">
+				<h2>Hubble's <span style="color:#9a0a33;">Star</span> Clusters Discoveries<div class="d-inline-block"><div class="bor clusterrght rounded d-inline-block position-relative" style="top:-9px;left:9px;"></div></div></h2>
+			</div>
+			<div class="row main mt-5">
+				<div class="col-sm-6 main1">
+					<div class="row 1child">
+						<div class="col-sm-12 myimg">
+							<div class="position-relative d-flex justify-content-center">
+								<img src="images/cluster1.png" class="img-fluid 1stimg w-75">
+								<div class="position-absolute top-50 start-50 translate-middle">
+									<h2 class="p-2">Open Clusters</h2>
+								</div>
+							</div>
+					   </div>
+					   <div class="text mt-4 d-flex justify-content-center">
+						<p>Open clusters contain between a few dozen and<br> a few thousand star all formed from the same<br> initial cloud of gas and dust.</p>
+					   </div>
+					</div>
+				</div>
+				<div class="col-sm-6 main2">
+					<div class="row 2child">
+						<div class="col-sm-12 text d-flex justify-content-center">
+							<p class="myp">Globular clusters are much larger and denser<br> than open clusters, containing several thousand <br>to millions of stars all formed from a sharedsnebula.</p>
+						</div>
+						<div class="myimg1">
+							<div class="position-relative d-flex justify-content-center mt-4">
+								<img src="images/cluster2.png" class="img-fluid w-75">
+								<div class="position-absolute top-50 start-50 translate-middle">
+									<h2 class="p-2">Globular Clusters</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+		<section id="myvido" class="mt-5">
+			<div class="container">
+				<div class="text-head">
+					<h2>Hubble's <span style="color:#9a0a33;">Universe</span> Videos<div class="d-inline-block"><div class="bor vidrght rounded d-inline-block position-relative" style="top:-9px;left:9px;"></div></div></h2>
+				</div>
+				<div class="container-fluid mt-5">
+					<div class="row mx-auto">
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="card">
+								 <div class="video_wrapper video_wrapper_full_small js-videoWrapper">
+									<iframe width="100%" height="230" src="https://www.youtube.com/embed/WP5rhrs1bnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									 <button class="videoPoster js-videoPoster active bg-pos"></button>
+								 </div>
+								  <div class="card-body">
+									<h4 class="d-block" align="center">Solar System Surprises</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="card">
+								<div class="viedo_wrapper viedo_wrapper_full_small js-videoWrapper">
+									<iframe width="100%" height="230" src="https://www.youtube.com/embed/gWaws_IVeW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									 <button class="videoPoster js-videoPoster active bg-pos-01"></button>
+								</div>
+								 <div class="card-body">
+									<h4 class="d-block" align="center">Intergalactic Elegance</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4 mb-4">
+							<div class="card">
+								<div class="video_wrapper video_wrapper_full_small js-videoWrapper">
+									<iframe width="100%" height="230" src="https://www.youtube.com/embed/zdDeN65oSc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+									 <button class="videoPoster js-videoPoster active bg-pos-02"></button>
+								</div>
+								 <div class="card-body">
+									<h4 class="d-block" align="center">Milky Way Marvels</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="mt-4">
+			<div class="container pt-4">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="row">
+							<div class="col-12">
+								<h2>Hubble Telescope</h2>
+								<p class="mt-3">
+									With increasing distance, our knowledge fades, and fades rapidly.
+								</p>
+							</div>
+							<div class="row foot mt-3">
+								<div class="col-4">
+										<h4>About us</h4>
+										<ul class="ps-2">
+											<li><a href="#">Overview</a></li>
+											<li><a href="#">Our Founder</a></li>
+											<li><a href="#">History</a></li>
+										</ul>
+								</div>
+								<div class="col-4">
+										<h4>Activities</h4>
+										<ul class="ps-2">
+											<li><a href="#">Navigation</a></li>
+											<li><a href="#">Observation</a></li>
+											<li><a href="#">Explore</a></li>
+										</ul>
+								</div>
+								<div class="col-4">
+									<h4>Relation</h4>
+									<ul class="ps-2">
+										<li><a href="#">Exhibition</a></li>
+										<li><a href="#">Visitors</a></li>
+										<li><a href="#">Contact us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h2 class="subs text-center mb-4">Subscribe our news letter</h2>
+						<div class="align-self-center mx-auto">
+						 <form class="d-flex justify-content-center">
+							<input type="email" placeholder="Your Email...">
+							<button type="submit">SUBSCRIBE</button>
+						 </form>
+						 </div>
+						 <h6 class="mt-3 text-center text-white note">(Note: We don’t send spam to your indox)</h6>
+						 <h2 class="him text-center mt-5">Follow us for new updates</h2>
+						 <div class="icons mt-3 d-flex justify-content-center">
+							<img src="images/fb.png" class="img-fluid me-5" style="width:40px; cursor:pointer;">
+							<img src="images/twiter.png" class="img-fluid" style="width:40px; cursor:pointer;">
+							<img src="images/google.png" class="img-fluid ms-5" style="width:40px; cursor:pointer;">
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div class="foot-end text-center" style="background-color:#2a2929;">
+				<h5 class="mt-4 py-3" style="color:#8f8f8f; font-size:1rem;">@ 2023 HubbleTelescope. All right reserve</h5>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	  <script>
+			$(document).on('click','.js-videoPoster',function(e) {
+
+			  e.preventDefault();
+			  var poster = $(this);
+		 
+			  var wrapper = poster.closest('.js-videoWrapper');
+			  videoPlay(wrapper);
+			});
+
+		  
+			function videoPlay(wrapper) {
+			  var iframe = wrapper.find('.js-videoIframe');
+			 
+			  var src = iframe.data('src');
+		 
+			  wrapper.addClass('videoWrapperActive');
+			 
+			  iframe.attr('src',src);
+			}  
+			
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
